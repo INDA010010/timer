@@ -1,10 +1,12 @@
 from time import sleep
+from os import system
 micro = 0
 sec = 0
 min = 0
 hour = 0
 day = 0
 while True:
+	system("clear")
 	sleep(0.1)
 	micro += 1
 	print('day: ',day,' hour: ',hour,' min: ',min,' sec: ',sec,' microsec: ',micro)
